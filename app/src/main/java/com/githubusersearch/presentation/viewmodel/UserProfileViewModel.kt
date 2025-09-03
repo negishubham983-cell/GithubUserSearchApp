@@ -8,7 +8,9 @@ import com.githubusersearch.data.repository.GithubRepository
 import com.githubusersearch.domain.model.Repository
 import com.githubusersearch.domain.model.User
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.flow.*
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 

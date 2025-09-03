@@ -6,7 +6,6 @@ import com.githubusersearch.data.remote.api.GithubApi
 import com.githubusersearch.domain.model.User
 import retrofit2.HttpException
 import java.io.IOException
-import kotlin.collections.map
 
 class GithubPagingSource(
     private val api: GithubApi,
